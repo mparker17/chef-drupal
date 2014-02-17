@@ -3,4 +3,5 @@
 # Recipe:: default
 #
 
-# Noop.
+# The default recipe is currently a noop. Log this.
+log 'Noop.'
