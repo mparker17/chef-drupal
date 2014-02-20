@@ -1,6 +1,7 @@
 require 'chefspec'
+require 'chefspec/berkshelf'
 
-describe 'chef-drupal::default' do
+describe 'drupal::default' do
   let(:chef_run) { ChefSpec::Runner.new.converge(described_recipe) }
 
   it 'logs noop' do
