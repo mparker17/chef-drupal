@@ -32,6 +32,15 @@
     },
     "iis": {
       "locked_version": "2.0.0"
+    },
+    "git": {
+      "locked_version": "2.9.0"
+    },
+    "dmg": {
+      "locked_version": "2.1.4"
+    },
+    "runit": {
+      "locked_version": "1.5.8"
     }
   }
 }

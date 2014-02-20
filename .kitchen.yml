@@ -13,3 +13,8 @@ suites:
     run_list:
       - recipe[drupal::default]
     attributes:
+  - name: git
+    run_list:
+      - recipe[git]
+      - recipe[drupal::git]
+    attributes:

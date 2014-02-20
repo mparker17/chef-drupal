@@ -6,5 +6,10 @@ description      'Sets up Drupal core'
 long_description IO.read(File.join(File.dirname(__FILE__), 'README.md'))
 version          '0.0.1'
 
+provides 'drupal::default'
+provides 'drupal::git'
+
+depends 'git', '~> 2.9'
+
 recommends 'php'
 recommends 'mysql'
