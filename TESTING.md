@@ -14,4 +14,4 @@ Before making a pull-request, please also run:
 
 ... to make sure that the cookbook runs correctly and the tests still work.
 
-If you're adding a feature, please also add kitchen tests.
+If you're adding a feature, please add rspec and kitchen tests.
