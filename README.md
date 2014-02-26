@@ -2,6 +2,8 @@
 
 This cookbook sets up Drupal core.
 
+[![Build Status](https://travis-ci.org/mparker17/chef-drupal.png?branch=master)](https://travis-ci.org/mparker17/chef-drupal)
+
 ## Contributing
 
 1. Fork the repository on Github.
